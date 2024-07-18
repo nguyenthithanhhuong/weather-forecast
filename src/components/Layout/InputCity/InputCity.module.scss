@@ -1,0 +1,21 @@
+.input-form {
+    width: 245px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.input-label {
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.input-box {
+    width: 160px;
+    height: 30px;
+    border: 1px #909090 solid;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+

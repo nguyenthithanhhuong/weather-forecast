@@ -1,0 +1,38 @@
+.forecast-list {
+    display: flex;
+    height: 140px;
+}
+
+.forecast-item {
+    width: 33.33334%;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+
+    &:hover {
+        background-color: #E3F0FF;
+    }
+
+    &.active {
+        color: #fff !important;
+        background-color: #5495f3 !important;
+    }
+}
+
+.forecast-date {
+    font-weight: 500;
+}
+
+.forecast-icon-box {
+    height: 40px;
+    width: 40px;
+    margin: 3px auto;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.forecast-value {
+    margin-top: 4px;
+}

@@ -1,0 +1,13 @@
+.weather-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #E3F0FF;
+    margin-bottom: 5px;
+    padding: 12px;
+}
+
+.chart-container {
+    width: 100%;
+}
