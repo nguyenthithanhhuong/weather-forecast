@@ -4,75 +4,72 @@
     flex-wrap: wrap;
     margin: 45px 50px 0 0;
     text-align: center;
-}
 
-.current-time {
-    width: 100%;
-    // margin-bottom: 30px;
-    color: #909090;
-}
+    .current-time {
+        width: 100%;
+        // margin-bottom: 30px;
+        color: #909090;
+    }
 
-.weather-overview {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
+    .weather-overview {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
 
-.weather-overview > div {
-    width: 122.5px;
-}
+        > div {
+            width: 122.5px;
+        }
+    }
 
-.weather-description {
-    width: 245px !important;
-}
+    .weather-description {
+        width: 245px !important;
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin: 15px 0 30px;
+    }
 
-.weather-icon-box {
-    height: 86px;
-    width: 86px;
-}
+    .weather-icon-box {
+        height: 86px;
+        width: 86px;
+    }
 
-.weather-temperate-box {
-    font-weight: 700;
-    display: flex;
-    justify-content: center;
-}
+    .weather-temperate-box {
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
 
-.weather-temperate {
-    font-size: 3.8rem;
-}
+        .weather-temperate {
+            font-size: 3.8rem;
+        }
 
-.weather-sign {
-    font-size: 1.6rem;
-}
+        .weather-sign {
+            font-size: 1.6rem;
+        }
+    }
 
-.weather-description {
-    font-size: 2.4rem;
-    font-weight: 700;
-    margin: 15px 0 30px;
-}
+    .weather-detail {
+        display: flex;
 
-.weather-detail {
-    display: flex;
-}
+        > div {
+            width: 122.5px;
+        }
+    }
 
-.weather-detail > div {
-    width: 122.5px;
-}
+    .weather-description {
+        width: 425px;
+    }
 
-.weather-description {
-    width: 425px;
-}
+    .weather-humid__title,
+    .weather-wind__title {
+        font-size: 1.6rem;
+        color: #909090;
+        margin-bottom: 8px;
+    }
 
-.weather-humid__title,
-.weather-wind__title {
-    font-size: 1.6rem;
-    color: #909090;
-    margin-bottom: 8px;
-}
-
-.weather-humid__value,
-.weather-wind__value {
-    font-size: 2.0rem;
-    font-weight: 500;
+    .weather-humid__value,
+    .weather-wind__value {
+        font-size: 2.0rem;
+        font-weight: 500;
+    }
 }

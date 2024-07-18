@@ -9,21 +9,22 @@
     overflow-y: hidden; 
     scrollbar-width: none; 
     -ms-overflow-style: none; 
-}
 
-.forecast-list::-webkit-scrollbar {
-    display: none; 
-}
+    &::-webkit-scrollbar {
+        display: none; 
+    }
 
-.forecast-item {
-    text-align: center;
-    width: 96px;
-    height: 100%;
-    padding: 13px 0;
-    flex-shrink: 0; 
-}
+    .forecast-item {
+        text-align: center;
+        width: 96px;
+        height: 100%;
+        padding: 13px 0;
+        flex-shrink: 0; 
 
-.forecast-icon {
-    height: 40px;
-    width: 40px;
+                
+        .forecast-icon {
+            height: 40px;
+            width: 40px;
+        }
+    }
 }
